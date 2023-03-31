@@ -28,19 +28,19 @@ For the notebooks you need a Python 3 based kernel. If for some reason neither w
 
 
 ### Contents
-The project results and visualisations are given in the notebook [RESULTS.ipynb](./RESULTS.ipynb). It contains examples of all methods 
+The project results and visualisations are given in the notebook [RESULTS.ipynb](https://github.com/dusan0098/AutoML-XGBoost/blob/main/python/RESULTS.ipynb). It contains examples of all methods 
 presented in the project report and instructions on how to run them if you wish to retrain the models from scratch.
 
 **IMPORTANT**: In order to run the code you need to **extract the entire contents** of the following [zip file](https://drive.google.com/drive/folders/1bdzU29C1DhGkdfWBCOirKvQarbvjUvJu?usp=sharing) to the **python** directory
 of the project.
 
 For more details on the implementations of individual methods:
-* [Direct regression](./compare_regressors.py)
-* [Taskwise regression](./taskRegression.py)
-* [Joint regression](./fullDataRegression.py)
-* [Implementation of Fully connected network](./FFN_regression.py)
-* [Utility functions - for preparing data used by the regression models](./project_utils.py)
-* [Evaluating baseline performance](./baseline.py)
+* [Direct regression](https://github.com/dusan0098/AutoML-XGBoost/blob/main/python/compare_regressors.py)
+* [Taskwise regression](https://github.com/dusan0098/AutoML-XGBoost/blob/main/python/taskRegression.py)
+* [Joint regression](https://github.com/dusan0098/AutoML-XGBoost/blob/main/python/fullDataRegression.py)
+* [Implementation of Fully connected network](https://github.com/dusan0098/AutoML-XGBoost/blob/main/python/FFN_regression.py)
+* [Utility functions - for preparing data used by the regression models](https://github.com/dusan0098/AutoML-XGBoost/blob/main/python/project_utils.py)
+* [Evaluating baseline performance](https://github.com/dusan0098/AutoML-XGBoost/blob/main/python/baseline.py)
 
 **NOTE:** All other notebooks in this project were used to develop the methods in the listed .py files. There is no need to run them and doing so might overwrite some of the 
 saved models/results.
